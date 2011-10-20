@@ -1,18 +1,25 @@
 {
-  "name": "my_package",
-  "summary": "Short package description",
-  "description": "Long package description",
-  "homepage": "http://mypackage.com",
-  "author": "Your Name",
+  "name": "jasmine",
+  "summary": "behavior-driven test framework for JavaScript",
+  "description": "behavior-driven test framework for JavaScript",
+  "homepage": "http://github.com/GutenYe/spade-jasmine",
+  "author": "Guten",
   "version": "1.0.0",
-
   "directories": {
     "lib": "lib"
   },
-  
   "bpm:build": {
-    "bpm_libs.js": {
-      "files": ["lib"]
-    }
+		"jasmine": {
+			"assets": ["index.html", "favicon.png"]
+		},
+		"jasmine/jasmine.js": {
+			"files": ["lib"]
+		},
+		"jasmine/jasmine.css": {
+			"files": ["css"]
+		},
+		"bpm_tests.js": {
+			"files": ["spec"]
+		}
   }
 }
