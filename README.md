@@ -4,7 +4,7 @@ bpm-jasmine, jasmine meets bpm
 INSTALL
 -------
 
-`$ bpm add jasmine --dev`
+`$ bpm add jasmine --dev --pre`
 
 See spade-jasmine if you want spade supporting.
 
