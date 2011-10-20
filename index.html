@@ -10,8 +10,26 @@
 
   <script type="text/javascript" src="/assets/bpm_libs.js"></script>
   <script type="text/javascript" src="/assets/jasmine/jasmine.js"></script>
+  <script type="text/javascript" src="/assets/jasmine/jasmine-html.js"></script>
 
-  <script type="text/javascript" src="/assets/bpm_tests.js"></script>
+  <script type="text/javascript">
+    var packageName = location.search.match(/package=([^&]+)&?/);
+    packageName = packageName && packageName[1];
+
+    if (!packageName) {
+      var el = document.getElementById('qunit-header');
+      el.innerHTML = 'Pass package=foo on URL to test package';
+    } else {
+      packageName = decodeURIComponent(packageName);
+      
+      var buf = [];
+      packageName.split(',').map(function(packageName) {
+        buf.push('<script src="../'+packageName+'/bpm_tests.js" type="text/javascript"><\/script>');
+      });
+
+      document.write(buf.join('\n'));
+    }
+  </script>
 
   <script type="text/javascript">
     (function() {
