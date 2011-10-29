@@ -1,10 +1,13 @@
 bpm-jasmine, jasmine meets bpm
 ==============================
 
+version: '1.1.0.005', '1.1.0' is jasmine's version, '005' is this package's build number.
+
+
 INSTALL
 -------
 
-`$ bpm add jasmine --dev --pre`
+`$ bpm add jasmine --dev`
 
 See spade-jasmine if you want spade supporting.
 
