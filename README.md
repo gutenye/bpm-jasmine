@@ -7,7 +7,7 @@ version: '1.1.0.005', '1.1.0' is jasmine's version, '005' is this package's buil
 INSTALL
 -------
 
-`$ bpm add jasmine --dev`
+	$ bpm add jasmine --dev
 
 See spade-jasmine if you want spade supporting.
 
@@ -28,7 +28,7 @@ Config project
 Run tests 
 
 	$ bpm preview
-	# goto localhost:4020/jasmine/index.html?package=<app>
+	# goto localhost:4020/assets/jasmine/index.html?package=<app>
 	
 
 Resources
