@@ -48,6 +48,7 @@ Update jasmine version
 
 Push bpm-jasmine package
 
+	# update verion in package.json 
 	$ rake push v=v1.1.0
 
 Copyright
