@@ -44,8 +44,11 @@ Note
 
 Update jasmine version
 
-	$ git submodel update
-	# update lib-html/jasmine-html.js if necessory
+	$ rake update v=v1.1.0
+
+Push bpm-jasmine package
+
+	$ rake push v=v1.1.0
 
 Copyright
 ---------
