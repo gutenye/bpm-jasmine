@@ -5,7 +5,7 @@ task :update do
   end
 
   run "git submodule update"
-  run "git --git-dir jasmine/.git checkout #{ENV["v"]}"
+  run "git --git-dir src/.git checkout #{ENV["v"]}"
 end
 
 task :build => :update do
