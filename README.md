@@ -44,12 +44,12 @@ Note
 
 Update jasmine version
 
-	$ rake update v=v1.1.0
+	$ rake update v=<version>
 
 Push bpm-jasmine package
 
 	# update verion in package.json 
-	$ rake push v=v1.1.0
+	$ rake push v=<version>
 
 Copyright
 ---------
