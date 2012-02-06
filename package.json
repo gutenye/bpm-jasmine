@@ -4,7 +4,7 @@
   "description": "behavior-driven test framework for JavaScript",
   "homepage": "http://github.com/GutenYe/bpm-jasmine",
   "author": "Guten",
-  "version": "1.1.0.005",
+  "version": "1.1.0.006",
   "directories": {
     "lib": "lib"
   },
