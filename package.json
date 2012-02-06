@@ -10,24 +10,15 @@
   },
   "bpm:build": {
     "bpm_libs.js": {
-      "files": [
-
-      ]
+      "files": [ ]
     },
+		"bpm_test_libs.js": {
+			"files": [ "lib"]
+		},
     "jasmine": {
       "assets": [
         "index.html",
         "favicon.png"
-      ]
-    },
-    "jasmine/jasmine.js": {
-      "files": [
-        "lib"
-      ]
-    },
-    "jasmine/jasmine-html.js": {
-      "files": [
-        "lib-html"
       ]
     },
     "jasmine/jasmine.css": {
