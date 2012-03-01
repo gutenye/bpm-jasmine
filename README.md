@@ -9,7 +9,7 @@ INSTALL
 
 	$ bpm add jasmine --dev
 
-See spade-jasmine if you want spade supporting.
+See [bpm-spade-jasmine](https://github.com/GutenYe/bpm-spade-jasmine) if you use bpm with spade.
 
 Usage
 ------
@@ -36,7 +36,6 @@ Resources
 
 * [jasmine](https://github.com/pivotal/jasmine) a Behavior Driven Development testing framework for JavaScript.
 * [bpm](https://github.com/bpm/bpm) a system for managing resource dependencies for client-side browser applications
-* [spade-jasmine](http://github.com/GutenYe/spade-jasmine) jasmine with spade
 
 
 Note
